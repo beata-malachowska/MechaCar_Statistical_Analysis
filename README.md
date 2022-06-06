@@ -32,3 +32,17 @@ For all lots variance does not exceed 100 punds per square inch, however for lot
 
 Lots taken together do not differ statistically significant from the population mean of 1,500 pounds per square inch, however the diffrence is at the borderline of significance. When each lot is analyzed separetly, then it's clear that lot3 is statistically different from the population mean of 1,500 pounds per square inch (p=0.0417) while other lots are not different significantly. 
 
+
+## Study Design: MechaCar vs Competition
+
+What metric or metrics are you going to test?
+maintenance cost and total cost of driving 1000km in the city
+What is the null hypothesis or alternative hypothesis?
+H0: there is no difference in the metric between MechaCar and the competitions
+H1: there is a difference in the selected metric between MechaCar and the competitors
+What statistical test would you use to test the hypothesis? And why?
+I would used ANOVA with Dunnett test as a post hoc to compare MechaCars with each of many competitors. 
+What data is needed to run the statistical test?
+maintenance cost and total cost of driving 1000km in the city for MechaCars and at least two other competitors
+
+
