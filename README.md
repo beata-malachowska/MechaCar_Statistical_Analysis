@@ -24,3 +24,11 @@ Yes, because p value for whole model is 5.35e-11. Intercept p value is also sign
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 For all lots variance does not exceed 100 punds per square inch, however for lot3 it's way above 100 (170.29) stronly indicated that this lot is not good. 
+
+## T-Tests on Suspension Coils
+
+[!t-test for all lots together](https://github.com/beata-malachowska/MechaCar_Statistical_Analysis/blob/main/screenshoot_t-test_for_all_lots.png)
+[!t-test for each lot separately](https://github.com/beata-malachowska/MechaCar_Statistical_Analysis/blob/main/screenshoot_t-test_for_each_lot.png)
+
+Lots taken together do not differ statistically significant from the population mean of 1,500 pounds per square inch, however the diffrence is at the borderline of significance. When each lot is analyzed separetly, then it's clear that lot3 is statistically different from the population mean of 1,500 pounds per square inch (p=0.0417) while other lots are not different significantly. 
+
